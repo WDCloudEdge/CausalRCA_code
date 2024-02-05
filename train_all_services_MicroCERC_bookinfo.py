@@ -163,89 +163,61 @@ def train(epoch, best_val_loss, lambda_A, c_A, optimizer):
 if __name__ == '__main__':
     simples: List[Simple] = [
         Simple(
-            1705125240, 1705125960, 'label-details-cpu-load-1', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-cpu-1'
+            1706114760, 1706115540, 'label-details-edge-net-latency-1', 'details-v1-edge',
+            'abnormal/bookinfo/details-edge/bookinfo-details-edge-net-1'
         ),
         Simple(
-            1705126080, 1705126800, 'label-details-cpu-load-2', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-cpu-2'
+            1706115660, 1706116440, 'label-details-edge-net-latency-2', 'details-v1-edge',
+            'abnormal/bookinfo/details-edge/bookinfo-details-edge-net-2'
         ),
         Simple(
-            1705126920, 1705127640, 'label-details-cpu-load-3', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-cpu-3'
+            1706116560, 1706117340, 'label-details-edge-net-latency-3', 'details-v1-edge',
+            'abnormal/bookinfo/details-edge/bookinfo-details-edge-net-3'
         ),
         Simple(
-            1706024880, 1706025660, 'label-details-cpu-load-4', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-cpu-4'
+            1706117460, 1706118240, 'label-details-edge-net-latency-4', 'details-v1-edge',
+            'abnormal/bookinfo/details-edge/bookinfo-details-edge-net-4'
         ),
         Simple(
-            1706025780, 1706026560, 'label-details-cpu-load-5', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-cpu-5'
+            1706118360, 1706119140, 'label-details-edge-net-latency-5', 'details-v1-edge',
+            'abnormal/bookinfo/details-edge/bookinfo-details-edge-net-5'
         ),
         Simple(
-            1706026680, 1706027460, 'label-details-cpu-load-6', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-cpu-6'
+            1706154240, 1706155020, 'label-details-edge-cpu-1', 'details-v1-edge',
+            'abnormal/bookinfo/details-edge/bookinfo-details-edge-cpu-1'
         ),
         Simple(
-            1706027580, 1706028360, 'label-details-cpu-load-7', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-cpu-7'
+            1706155140, 1706155920, 'label-details-edge-cpu-2', 'details-v1-edge',
+            'abnormal/bookinfo/details-edge/bookinfo-details-edge-cpu-2'
         ),
         Simple(
-            1706028480, 1706029260, 'label-details-cpu-load-8', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-cpu-8'
+            1706156040, 1706156820, 'label-details-edge-cpu-3', 'details-v1-edge',
+            'abnormal/bookinfo/details-edge/bookinfo-details-edge-cpu-3'
         ),
         Simple(
-            1705129320, 1705130040, 'label-details-mem-load-1', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-mem-1'
+            1706156940, 1706157720, 'label-details-edge-cpu-4', 'details-v1-edge',
+            'abnormal/bookinfo/details-edge/bookinfo-details-edge-cpu-4'
         ),
         Simple(
-            1705130160, 1705130880, 'label-details-mem-load-2', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-mem-2'
+            1706157840, 1706158620, 'label-details-edge-cpu-5', 'details-v1-edge',
+            'abnormal/bookinfo/details-edge/bookinfo-details-edge-cpu-5'
         ),
         Simple(
-            1706029380, 1706030160, 'label-details-mem-load-3', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-mem-3'
+            1706167740, 1706168520, 'label-details-edge-mem-1', 'details-v1-edge',
+            'abnormal/bookinfo/details-edge/bookinfo-details-edge-mem-1'
         ),
         Simple(
-            1706030280, 1706031060, 'label-details-mem-load-4', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-mem-4'
+            1706168640, 1706169420, 'label-details-edge-mem-2', 'details-v1-edge',
+            'abnormal/bookinfo/details-edge/bookinfo-details-edge-mem-2'
         ),
         Simple(
-            1706031180, 1706031960, 'label-details-mem-load-5', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-mem-5'
+            1706169540, 1706170320, 'label-details-edge-mem-3', 'details-v1-edge',
+            'abnormal/bookinfo/details-edge/bookinfo-details-edge-mem-3'
         ),
         Simple(
-            1706032080, 1706032860, 'label-details-mem-load-6', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-mem-6'
+            1706171340, 1706172120, 'label-details-edge-mem-5', 'details-v1-edge',
+            'abnormal/bookinfo/details-edge/bookinfo-details-edge-mem-5'
         ),
-        Simple(
-            1706032980, 1706033760, 'label-details-mem-load-7', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-mem-7'
-        ),
-        Simple(
-            1705131180, 1705131900, 'label-details-net-latency-1', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-net-1'
-        ),
-        Simple(
-            1705132020, 1705132740, 'label-details-net-latency-2', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-net-2'
-        ),
-        Simple(
-            1705132860, 1705133580, 'label-details-net-latency-3', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-net-3'
-        ),
-        Simple(
-            1706033880, 1706034660, 'label-details-net-latency-4', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-net-4'
-        ),
-        Simple(
-            1706034780, 1706035560, 'label-details-net-latency-5', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-net-5'
-        ),
-        Simple(
-            1706035680, 1706036460, 'label-details-net-latency-6', 'details',
-            'abnormal/bookinfo/details/bookinfo-details-net-6'
-        )
     ]
     namespaces = ['bookinfo', 'hipster', 'cloud-sock-shop', 'horsecoder-test']
     for simple in simples:
