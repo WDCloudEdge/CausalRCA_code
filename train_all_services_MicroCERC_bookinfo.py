@@ -163,124 +163,54 @@ def train(epoch, best_val_loss, lambda_A, c_A, optimizer):
 if __name__ == '__main__':
     simples: List[Simple] = [
         Simple(
-            1706308740, 1706309520, 'label-productpage-net-latency-1', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-net-1'
+            1706268240, 1706269020, 'label-ratings-net-latency-1', 'ratings',
+            'abnormal/bookinfo/ratings/bookinfo-ratings-net-1'
         ),
         Simple(
-            1706309640, 1706310420, 'label-productpage-net-latency-2', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-net-2'
+            1706269140, 1706269920, 'label-ratings-net-latency-2', 'ratings',
+            'abnormal/bookinfo/ratings/bookinfo-ratings-net-2'
         ),
         Simple(
-            1706310540, 1706311320, 'label-productpage-net-latency-3', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-net-3'
+            1706270040, 1706270820, 'label-ratings-net-latency-3', 'ratings',
+            'abnormal/bookinfo/ratings/bookinfo-ratings-net-3'
         ),
         Simple(
-            1706311440, 1706312220, 'label-productpage-net-latency-4', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-net-4'
+            1706270940, 1706271720, 'label-ratings-net-latency-4', 'ratings',
+            'abnormal/bookinfo/ratings/bookinfo-ratings-net-4'
         ),
         Simple(
-            1706312340, 1706313120, 'label-productpage-net-latency-5', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-net-5'
+            1706271840, 1706272620, 'label-ratings-net-latency-5', 'ratings',
+            'abnormal/bookinfo/ratings/bookinfo-ratings-net-5'
         ),
         Simple(
-            1706286240, 1706287020, 'label-productpage-cpu-1', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-cpu-1'
+            1706258340, 1706259120, 'label-ratings-cpu-1', 'ratings', 'abnormal/bookinfo/ratings/bookinfo-ratings-cpu-1'
         ),
         Simple(
-            1706287140, 1706287920, 'label-productpage-cpu-2', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-cpu-2'
+            1706259240, 1706260020, 'label-ratings-cpu-2', 'ratings', 'abnormal/bookinfo/ratings/bookinfo-ratings-cpu-2'
         ),
         Simple(
-            1706288040, 1706288820, 'label-productpage-cpu-3', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-cpu-3'
+            1706260140, 1706260920, 'label-ratings-cpu-3', 'ratings', 'abnormal/bookinfo/ratings/bookinfo-ratings-cpu-3'
         ),
         Simple(
-            1706288940, 1706289720, 'label-productpage-cpu-4', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-cpu-4'
+            1706261040, 1706261820, 'label-ratings-cpu-4', 'ratings', 'abnormal/bookinfo/ratings/bookinfo-ratings-cpu-4'
         ),
         Simple(
-            1706289840, 1706290620, 'label-productpage-cpu-5', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-cpu-5'
+            1706261940, 1706262720, 'label-ratings-cpu-5', 'ratings', 'abnormal/bookinfo/ratings/bookinfo-ratings-cpu-5'
         ),
         Simple(
-            1706290740, 1706291520, 'label-productpage-mem-1', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-1'
+            1706262840, 1706263620, 'label-ratings-mem-1', 'ratings', 'abnormal/bookinfo/ratings/bookinfo-ratings-mem-1'
         ),
         Simple(
-            1706291640, 1706292420, 'label-productpage-mem-2', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-2'
+            1706263740, 1706264520, 'label-ratings-mem-2', 'ratings', 'abnormal/bookinfo/ratings/bookinfo-ratings-mem-2'
         ),
         Simple(
-            1706292540, 1706293320, 'label-productpage-mem-3', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-3'
+            1706264640, 1706265420, 'label-ratings-mem-3', 'ratings', 'abnormal/bookinfo/ratings/bookinfo-ratings-mem-3'
         ),
         Simple(
-            1706293440, 1706294220, 'label-productpage-mem-4', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-4'
+            1706265540, 1706266320, 'label-ratings-mem-4', 'ratings', 'abnormal/bookinfo/ratings/bookinfo-ratings-mem-4'
         ),
         Simple(
-            1706294340, 1706295120, 'label-productpage-mem-5', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-5'
-        ),
-        Simple(
-            1706295240, 1706296020, 'label-productpage-mem-6', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-6'
-        ),
-        Simple(
-            1706296140, 1706296920, 'label-productpage-mem-7', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-7'
-        ),
-        Simple(
-            1706297040, 1706297820, 'label-productpage-mem-8', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-8'
-        ),
-        Simple(
-            1706297940, 1706298720, 'label-productpage-mem-9', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-9'
-        ),
-        Simple(
-            1706298840, 1706299620, 'label-productpage-mem-10', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-10'
-        ),
-        Simple(
-            1706299740, 1706300520, 'label-productpage-mem-11', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-11'
-        ),
-        Simple(
-            1706300640, 1706301420, 'label-productpage-mem-12', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-12'
-        ),
-        Simple(
-            1706301540, 1706302320, 'label-productpage-mem-13', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-13'
-        ),
-        Simple(
-            1706302440, 1706303220, 'label-productpage-mem-14', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-14'
-        ),
-        Simple(
-            1706303340, 1706304120, 'label-productpage-mem-15', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-15'
-        ),
-        Simple(
-            1706304240, 1706305020, 'label-productpage-mem-16', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-16'
-        ),
-        Simple(
-            1706305140, 1706305920, 'label-productpage-mem-17', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-17'
-        ),
-        Simple(
-            1706306040, 1706306820, 'label-productpage-mem-18', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-18'
-        ),
-        Simple(
-            1706306940, 1706307720, 'label-productpage-mem-19', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-19'
-        ),
-        Simple(
-            1706307840, 1706308620, 'label-productpage-mem-20', 'productpage',
-            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-20'
+            1706266440, 1706267220, 'label-ratings-mem-5', 'ratings', 'abnormal/bookinfo/ratings/bookinfo-ratings-mem-5'
         ),
     ]
     namespaces = ['bookinfo', 'hipster', 'cloud-sock-shop', 'horsecoder-test']
