@@ -174,60 +174,124 @@ if __name__ == '__main__':
     pps = ['p50']
     simples: List[Simple] = [
         Simple(
-            1706114760, 1706115540, 'label-details-edge-net-latency-1', 'details-v1-edge',
-            'abnormal/bookinfo/details-edge/bookinfo-details-edge-net-1'
+            1706308740, 1706309520, 'label-productpage-net-latency-1', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-net-1'
         ),
         Simple(
-            1706115660, 1706116440, 'label-details-edge-net-latency-2', 'details-v1-edge',
-            'abnormal/bookinfo/details-edge/bookinfo-details-edge-net-2'
+            1706309640, 1706310420, 'label-productpage-net-latency-2', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-net-2'
         ),
         Simple(
-            1706116560, 1706117340, 'label-details-edge-net-latency-3', 'details-v1-edge',
-            'abnormal/bookinfo/details-edge/bookinfo-details-edge-net-3'
+            1706310540, 1706311320, 'label-productpage-net-latency-3', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-net-3'
         ),
         Simple(
-            1706117460, 1706118240, 'label-details-edge-net-latency-4', 'details-v1-edge',
-            'abnormal/bookinfo/details-edge/bookinfo-details-edge-net-4'
+            1706311440, 1706312220, 'label-productpage-net-latency-4', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-net-4'
         ),
         Simple(
-            1706118360, 1706119140, 'label-details-edge-net-latency-5', 'details-v1-edge',
-            'abnormal/bookinfo/details-edge/bookinfo-details-edge-net-5'
+            1706312340, 1706313120, 'label-productpage-net-latency-5', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-net-5'
         ),
         Simple(
-            1706154240, 1706155020, 'label-details-edge-cpu-1', 'details-v1-edge',
-            'abnormal/bookinfo/details-edge/bookinfo-details-edge-cpu-1'
+            1706286240, 1706287020, 'label-productpage-cpu-1', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-cpu-1'
         ),
         Simple(
-            1706155140, 1706155920, 'label-details-edge-cpu-2', 'details-v1-edge',
-            'abnormal/bookinfo/details-edge/bookinfo-details-edge-cpu-2'
+            1706287140, 1706287920, 'label-productpage-cpu-2', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-cpu-2'
         ),
         Simple(
-            1706156040, 1706156820, 'label-details-edge-cpu-3', 'details-v1-edge',
-            'abnormal/bookinfo/details-edge/bookinfo-details-edge-cpu-3'
+            1706288040, 1706288820, 'label-productpage-cpu-3', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-cpu-3'
         ),
         Simple(
-            1706156940, 1706157720, 'label-details-edge-cpu-4', 'details-v1-edge',
-            'abnormal/bookinfo/details-edge/bookinfo-details-edge-cpu-4'
+            1706288940, 1706289720, 'label-productpage-cpu-4', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-cpu-4'
         ),
         Simple(
-            1706157840, 1706158620, 'label-details-edge-cpu-5', 'details-v1-edge',
-            'abnormal/bookinfo/details-edge/bookinfo-details-edge-cpu-5'
+            1706289840, 1706290620, 'label-productpage-cpu-5', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-cpu-5'
         ),
         Simple(
-            1706167740, 1706168520, 'label-details-edge-mem-1', 'details-v1-edge',
-            'abnormal/bookinfo/details-edge/bookinfo-details-edge-mem-1'
+            1706290740, 1706291520, 'label-productpage-mem-1', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-1'
         ),
         Simple(
-            1706168640, 1706169420, 'label-details-edge-mem-2', 'details-v1-edge',
-            'abnormal/bookinfo/details-edge/bookinfo-details-edge-mem-2'
+            1706291640, 1706292420, 'label-productpage-mem-2', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-2'
         ),
         Simple(
-            1706169540, 1706170320, 'label-details-edge-mem-3', 'details-v1-edge',
-            'abnormal/bookinfo/details-edge/bookinfo-details-edge-mem-3'
+            1706292540, 1706293320, 'label-productpage-mem-3', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-3'
         ),
         Simple(
-            1706171340, 1706172120, 'label-details-edge-mem-5', 'details-v1-edge',
-            'abnormal/bookinfo/details-edge/bookinfo-details-edge-mem-5'
+            1706293440, 1706294220, 'label-productpage-mem-4', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-4'
+        ),
+        Simple(
+            1706294340, 1706295120, 'label-productpage-mem-5', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-5'
+        ),
+        Simple(
+            1706295240, 1706296020, 'label-productpage-mem-6', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-6'
+        ),
+        Simple(
+            1706296140, 1706296920, 'label-productpage-mem-7', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-7'
+        ),
+        Simple(
+            1706297040, 1706297820, 'label-productpage-mem-8', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-8'
+        ),
+        Simple(
+            1706297940, 1706298720, 'label-productpage-mem-9', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-9'
+        ),
+        Simple(
+            1706298840, 1706299620, 'label-productpage-mem-10', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-10'
+        ),
+        Simple(
+            1706299740, 1706300520, 'label-productpage-mem-11', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-11'
+        ),
+        Simple(
+            1706300640, 1706301420, 'label-productpage-mem-12', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-12'
+        ),
+        Simple(
+            1706301540, 1706302320, 'label-productpage-mem-13', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-13'
+        ),
+        Simple(
+            1706302440, 1706303220, 'label-productpage-mem-14', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-14'
+        ),
+        Simple(
+            1706303340, 1706304120, 'label-productpage-mem-15', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-15'
+        ),
+        Simple(
+            1706304240, 1706305020, 'label-productpage-mem-16', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-16'
+        ),
+        Simple(
+            1706305140, 1706305920, 'label-productpage-mem-17', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-17'
+        ),
+        Simple(
+            1706306040, 1706306820, 'label-productpage-mem-18', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-18'
+        ),
+        Simple(
+            1706306940, 1706307720, 'label-productpage-mem-19', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-19'
+        ),
+        Simple(
+            1706307840, 1706308620, 'label-productpage-mem-20', 'productpage',
+            'abnormal/bookinfo/productpage/bookinfo-productpage-mem-20'
         ),
     ]
     namespaces = ['bookinfo', 'hipster', 'cloud-sock-shop', 'horsecoder-test']
