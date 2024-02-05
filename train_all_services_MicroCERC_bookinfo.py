@@ -163,64 +163,64 @@ def train(epoch, best_val_loss, lambda_A, c_A, optimizer):
 if __name__ == '__main__':
     simples: List[Simple] = [
         Simple(
-            1706209200, 1706209980, 'label-reviews-v2-edge-net-latency-1', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-net-1'
+            1706222700, 1706223480, 'label-reviews-v3-net-latency-1', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-net-1'
         ),
         Simple(
-            1706210100, 1706210880, 'label-reviews-v2-edge-net-latency-2', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-net-2'
+            1706223600, 1706224380, 'label-reviews-v3-net-latency-2', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-net-2'
         ),
         Simple(
-            1706211000, 1706211780, 'label-reviews-v2-edge-net-latency-3', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-net-3'
+            1706224500, 1706225280, 'label-reviews-v3-net-latency-3', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-net-3'
         ),
         Simple(
-            1706211900, 1706212680, 'label-reviews-v2-edge-net-latency-4', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-net-4'
+            1706225400, 1706226180, 'label-reviews-v3-net-latency-4', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-net-4'
         ),
         Simple(
-            1706212800, 1706213580, 'label-reviews-v2-edge-net-latency-5', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-net-5'
+            1706226300, 1706227080, 'label-reviews-v3-net-latency-5', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-net-5'
         ),
         Simple(
-            1706200140, 1706200920, 'label-reviews-v2-edge-cpu-1', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-cpu-1'
+            1706213700, 1706214480, 'label-reviews-v3-cpu-1', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-cpu-1'
         ),
         Simple(
-            1706201040, 1706201820, 'label-reviews-v2-edge-cpu-2', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-cpu-2'
+            1706214600, 1706215380, 'label-reviews-v3-cpu-2', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-cpu-2'
         ),
         Simple(
-            1706201940, 1706202720, 'label-reviews-v2-edge-cpu-3', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-cpu-3'
+            1706215500, 1706216280, 'label-reviews-v3-cpu-3', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-cpu-3'
         ),
         Simple(
-            1706202840, 1706203620, 'label-reviews-v2-edge-cpu-4', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-cpu-4'
+            1706216400, 1706217180, 'label-reviews-v3-cpu-4', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-cpu-4'
         ),
         Simple(
-            1706203740, 1706204520, 'label-reviews-v2-edge-cpu-5', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-cpu-5'
+            1706217300, 1706218080, 'label-reviews-v3-cpu-5', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-cpu-5'
         ),
         Simple(
-            1706204700, 1706205480, 'label-reviews-v2-edge-mem-1', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-mem-1'
+            1706218200, 1706218980, 'label-reviews-v3-mem-1', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-mem-1'
         ),
         Simple(
-            1706205600, 1706206380, 'label-reviews-v2-edge-mem-2', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-mem-2'
+            1706219100, 1706219880, 'label-reviews-v3-mem-2', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-mem-2'
         ),
         Simple(
-            1706206500, 1706207280, 'label-reviews-v2-edge-mem-3', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-mem-3'
+            1706220000, 1706220780, 'label-reviews-v3-mem-3', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-mem-3'
         ),
         Simple(
-            1706207400, 1706208180, 'label-reviews-v2-edge-mem-4', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-mem-4'
+            1706220900, 1706221680, 'label-reviews-v3-mem-4', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-mem-4'
         ),
         Simple(
-            1706208300, 1706209080, 'label-reviews-v2-edge-mem-5', 'reviews-v2-edge',
-            'abnormal/bookinfo/reviews-v2-edge/bookinfo-reviews-v2-edge-mem-5'
+            1706221800, 1706222580, 'label-reviews-v3-mem-5', 'reviews-v3',
+            'abnormal/bookinfo/reviews-v3/bookinfo-reviews-v3-mem-5'
         ),
     ]
     namespaces = ['bookinfo', 'hipster', 'cloud-sock-shop', 'horsecoder-test']
