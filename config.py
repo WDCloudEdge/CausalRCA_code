@@ -25,7 +25,7 @@ class CONFIG:
     z_dims = 1
     #data_variable_size = 12
     optimizer = "Adam"
-    graph_threshold = 0.3
+    graph_threshold = 0.2
     tau_A = 0.0
     lambda_A = 0.0
     c_A = 1
