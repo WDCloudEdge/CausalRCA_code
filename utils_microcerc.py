@@ -32,10 +32,10 @@ def df_time_limit(df, begin_timestamp, end_timestamp):
             end_index = index
             break
     if max_timestamp < int(end_timestamp):
-        end_index = df.shape[0] + 1
+        end_index = df.shape[0] - 1
     if time_string_2_timestamp(df.loc[end_index]['timestamp']) == int(end_timestamp):
         end_index += 1
-    df = df.loc[begin_index:end_index - 1]
+    df = df.loc[begin_index:end_index]
     df = df.reset_index(drop=True)
     return df
 
