@@ -223,14 +223,14 @@ if __name__ == '__main__':
         return int(dt_object.timestamp())
 
     base_dir = '/Users/zhuyuhan/Documents/391-WHU/experiment/researchProject/MicroCERC/'
-    root_cause_services = ['frontend-cloud']
-    root_cause_namespace_dir = base_dir + 'data/abnormal/' + 'sock_shop_chaos'
-    # for item in os.listdir(root_cause_namespace_dir):
-    #     if os.path.isdir(os.path.join(root_cause_namespace_dir, item)):
-    #         root_cause_services.append(item)
+    root_cause_services = []
+    root_cause_namespace_dir = base_dir + 'data/abnormal/' + 'hipster_chaos_2'
+    for item in os.listdir(root_cause_namespace_dir):
+        if os.path.isdir(os.path.join(root_cause_namespace_dir, item)):
+            root_cause_services.append(item)
     for root_cause_service in root_cause_services:
         simples: List[Simple] = []
-        read_label_logs(base_dir + 'data/abnormal/sock_shop_chaos', root_cause_service, simples, 15)
+        read_label_logs(base_dir + 'data/abnormal/hipster_chaos_2', root_cause_service, simples, 15)
         namespaces = ['bookinfo', 'hipster', 'cloud-sock-shop', 'horsecoder-test']
         for pp in pps:
             for simple in simples:
@@ -291,7 +291,7 @@ if __name__ == '__main__':
                     score_dict[name[nodes[i]]] = s
                 sorted_scores = sorted(score_dict.items(), key=lambda item: item[1], reverse=True)
                 count = 0
-                with open('MicroCERC/sockshop/service/' + simple.label + '-' + pp + '.log', "a") as output_file:
+                with open('MicroCERC/hipster/service/' + simple.label + '-' + pp + '.log', "a") as output_file:
                     print('root cause: ' + simple.root_cause, file=output_file)
                     for sorted_score in sorted_scores:
                         count += 1
