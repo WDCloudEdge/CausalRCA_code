@@ -213,11 +213,12 @@ if __name__ == '__main__':
         return int(dt_object.timestamp())
 
     base_dir = '/Users/zhuyuhan/Documents/391-WHU/experiment/researchProject/MicroCERC/'
-    root_cause_services = []
+    root_cause_services = ['orders-edge']
     root_cause_namespace_dir = base_dir + 'data/abnormal/' + 'sock_shop_chaos'
-    for item in os.listdir(root_cause_namespace_dir):
-        if os.path.isdir(os.path.join(root_cause_namespace_dir, item)):
-            root_cause_services.append(item)
+    # for item in os.listdir(root_cause_namespace_dir):
+    #     if os.path.isdir(os.path.join(root_cause_namespace_dir, item)):
+    #         root_cause_services.append(item)
+    begin_tt = time.time()
     for root_cause_service in root_cause_services:
         simples: List[Simple] = []
         read_label_logs(base_dir + 'data/abnormal/sock_shop_chaos', root_cause_service, simples, 15)
@@ -440,3 +441,4 @@ if __name__ == '__main__':
                             sorted_score[0]):
                         print("topK: " + str(count), file=output_file)
                         break
+    print('time cost: ' + str(time.time() - begin_tt))
